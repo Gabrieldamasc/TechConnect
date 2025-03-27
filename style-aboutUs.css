@@ -22,8 +22,18 @@ h1{
 }
 
 .button-back-to-home{
+    margin: auto;
     text-decoration: none;
     color: black;
+}
+
+button{
+    transition: 0.4s;
+}
+
+button:hover{
+    cursor: pointer;
+        transform: translate(0px, -5px);
 }
 
 @media (min-width: 1024px){
