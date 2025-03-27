@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+/* Mobile First */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1em;
+}
+
+body{
+    background: url(media/Background-blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    flex-wrap: wrap;
+    font-size: 2.3em;
+    text-align: center;
+    color: #E3F8FB;
+}
+
+.link-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.4);
+}
+
+.link-nav a{
+    font-weight: 600;
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: #BFD7EC;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+.link-nav a:hover{
+    color: #BFD7EC;
+    border-radius: 5px;
+    background-color: #414953;
+}
+
+.paragraph{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10%;
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+    color: rgb(169, 169, 169);
+}
+
+.about-event p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h2{
+    margin: 5%;
+    font-size: 1.8em;
+    color: #d4de42;
+}
+
+.h3{
+    font-size: 1.1em;
+    margin: 5%;
+    color: white;
+}
+
+.strong{
+    color: #d4de42;
+}
+
+.speaker01, .speaker02, .speaker03, .speaker04 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.paragraph-bio{
+    color: rgb(169, 169, 169);
+    margin: 10%;
+    font-size: 18px;
+}
+
+.img-jeff, .img-elon, .img-james, .img-linus{
+    width: 300px;
+    height: 300px;
+}
+
+.subscription-form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.fieldset-form{
+    border-radius: 10px;
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+}
+
+.legend-form{
+    margin: 20px;
+    font-weight: 700;
+    color: #d4de42;
+}
+
+.label-name,.label-email{
+    display: flex;
+    flex-direction: column;
+}
+
+#name-in, #email-in{
+    margin: 5%;
+    border: none;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+}
+
+.name-user, .email-user{
+    text-align: center;
+    color: white;
+}
+
+.label-ticket{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 5%;
+    color: white;
+}
+
+#label-on-line, #label-on-site{
+    margin-right: 10px;
+    border: 0px;
+    width: 25px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+button{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: #d4de42;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.terms{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-left: 5%;
+    color: white;
+}
+
+.terms input{
+    margin-right: 10px;
+    border: 0px;
+    width: 25px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.see-terms{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    text-decoration: none;
+    color: orange;
+}
+
+footer{
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 20px;
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+}
+
+footer p{
+    text-align: center;
+    color: #d4de42;
+    font-weight: 700;
+}
+

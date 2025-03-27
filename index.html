@@ -4,14 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechConnect</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="title"> TechConnect </h1>
-    <nav>
-        <a href="index.html" target="_self">Home</a>
-        <a href="#">Contato</a>
-        <a href="aboutUs.html"></a>
-        <a href="terms.html">Termos</a>
-    </nav>
+    
+    <div class="header">
+        <h1 class="title"> TechConnect </h1>
+        <nav class="link-nav">
+            <a  href="index.html" target="_self">Home</a>
+            <a  href="aboutUs.html" target="_blank">Sobre nós</a>
+            <a  href="terms.html" target="_blank">Termos</a>
+        </nav>
+    </div>
+
+    <div class="about-event">
+        <h2>Fique por dentro</h2>
+        <h3 class="h3">
+            Um Evento Imperdível para Amantes da Tecnologia
+        </h3>
+            <p class="paragraph">
+                A <strong class="strong">TechConnect</strong> está preparando um evento imperdível para quem ama tecnologia e inovação. No dia <strong class="strong">02/05/2025 no parque de exposições</strong>, nossa sede será palco de um encontro onde especialistas, entusiastas e profissionais do setor discutirão as tendências que vão definir o futuro.
+            </p>
+
+            <h3 class="h3">
+                Palestras, Demonstrações e Desafios Interativos
+            </h3>
+
+            <p class="paragraph">
+                Durante o evento, os participantes poderão acompanhar<strong class="strong"> palestras com grandes nomes da tecnologia</strong>, explorar demonstrações de novas soluções e até testar suas habilidades em desafios interativos. Além disso, será uma excelente oportunidade para fazer <strong class="strong">networking</strong>, <strong class="strong">trocar ideias</strong> e, quem sabe, até abrir portas para <strong class="strong">novas oportunidades profissionais</strong>.
+            </p>
+
+            <h3 class="h3">
+                Não Fique de Fora Dessa Experiência Única
+            </h3>
+        
+            <p class="paragraph">
+                Se você quer se atualizar sobre as últimas novidades do mundo tech e vivenciar um dia repleto de aprendizado e conexões valiosas,  <strong class="strong">você não pode ficar de fora</strong>. O futuro está acontecendo agora, e a <strong class="strong">TechConnect espera por você</strong>.
+            </p>
+    </div>
+
+    <h2>Nossos Palestrantes</h2>
+
+    <div class="speakers">
+        <div class="speaker01">
+            <h3 class="h3">james Gosling</h3>
+            <img class="img-james" src="media/James-gosling.png" alt="image off James Gosling">
+            <p class="paragraph-bio">
+                James Gosling é um cientista da computação canadense conhecido como o "pai do Java". Em 1995, enquanto trabalhava na Sun Microsystems, ele liderou o desenvolvimento da linguagem de programação Java, que revolucionou a forma como softwares são desenvolvidos, tornando-se uma das mais populares do mundo.
+            </p>
+        </div>
+
+        <div class="speaker02">
+            <h3 class="h3">Linus Torvalds</h3>
+            <img class="img-linus" src="media/Linus-torvals.png" alt="image off Linus Torvalds">
+            <p class="paragraph-bio">
+                Linus Torvalds é um engenheiro de software finlandês e o criador do Linux, um dos sistemas operacionais mais utilizados no mundo. Desenvolveu o Linux como um projeto pessoal, sem imaginar que ele se tornaria a base de servidores, supercomputadores e dispositivos móveis. Torvalds também é o responsável pelo Git, sistema de controle de versões amplamente usado no desenvolvimento de software. Sua contribuição para o mundo da computação é imensurável, sendo um dos maiores nomes do movimento de código aberto.
+            </p>
+        </div>
+
+
+        <div class="speaker03">
+            <h3 class="h3">Elon Musk</h3>
+            <img class="img-elon" src="media/Elon-musk.png" alt="image off Elon Musk">
+            <p class="paragraph-bio">
+                Elon Musk é um empresário conhecido por suas ambiciosas empreitadas no setor de tecnologia e inovação. Cofundador do PayPal, ele fundou a SpaceX, empresa aeroespacial que busca tornar a humanidade interplanetária, e assumiu o comando da Tesla, impulsionando a revolução dos carros elétricos. Além disso, Musk lidera projetos como a Neuralink, que explora interfaces cérebro-computador, e a The Boring Company, voltada para infraestrutura de transporte. Sua visão audaciosa o tornou uma das figuras mais influentes do século XXI.
+            </p>
+        </div>
+
+        <div class="speaker04">
+            <h3 class="h3">Jeff Bezos</h3>
+            <img class="img-jeff" src="media/Jeff-bezos.png" alt="image off Jeff Bezos">
+            <p class="paragraph-bio">
+                Jeff Bezos é um empresário norte-americano e fundador da Amazon, empresa que começou como uma livraria online em 1994 e se tornou um dos maiores conglomerados de tecnologia e comércio eletrônico do mundo. Sob sua liderança, a Amazon expandiu-se para áreas como computação em nuvem, inteligência artificial e entretenimento digital. Em 2021, Bezos deixou o cargo de CEO para focar em novos projetos, incluindo sua empresa aeroespacial Blue Origin, que busca popularizar o turismo espacial. Sua visão estratégica o tornou um dos empresários mais ricos e influentes da atualidade.
+            </p>
+        </div>
+    </div>
+
+    <div class="subscription-form">
+        <form action="">
+            <fieldset class="fieldset-form">
+                <legend class="legend-form">Faça sua inscrição</legend>
+                <label class="label-name" for="name">
+                    <p class="name-user">Nome Do participante: </p>
+                    <input type="text" name="name" id="name-in" placeholder="Nome completo" required>
+                </label>
+
+                <label class="label-email" for="email">
+                    <p class="email-user">E-mail do participante</p>
+                    <input type="email" name="email" id="email-in" placeholder="Insira seu E-mail" required>
+                </label>
+
+                <label class="label-ticket" for="type-ticket">
+                    <p>Ingresso Presencial</p>
+                    <input type="radio" name="choose" id="label-on-site">
+                </label>
+
+                <label class="label-ticket" for="type-ticket">
+                    <p>Ingresso on-line</p>
+                    <input type="radio" name="choose" id="label-on-line">
+                </label>
+
+                <button>
+                    <p>Enviar</p>
+                </button>
+
+                <label class="terms" for="terms-choose">
+                    <p>Aceito os termos</p>
+                    <input type="checkbox" name="terms" id="label-terms-accept">
+                </label>
+                <a class="see-terms" href="terms.html" target="_blank">Veja os termos aqui</a>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por Gabriel Nunes</p>
+    </footer>
 </body>
 </html>
