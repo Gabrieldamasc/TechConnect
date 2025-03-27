@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 5%;
+}
+
+.main-content p{
+    color: rgb(169, 169, 169);
+    border-radius: 20px;
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    margin: 5%;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.button-back-to-home{
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 1024px){
+    .main-content p{
+        font-size: 1.1em;
+    }
+}
